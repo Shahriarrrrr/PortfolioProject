@@ -1,4 +1,4 @@
-nav {
+-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,6 +89,10 @@ nav a {
     margin: 0 auto;
 }
 
+main > section {
+    margin-top: 130px;
+}
+
 /*-----------ABOUT SECTION*--------*/
 
 .about {
@@ -106,4 +110,35 @@ nav a {
 
 .about-info {
     text-align: center;
+}
+
+#what-i-do {
+    padding: 30px 150px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 150px;
+}
+.skills {
+    padding: 30px;
+    text-align: center;
+}
+
+
+.skill-description {
+    padding: 30px;
+    
+}
+.skill-container >  .skills > img {
+    height: 80px;
+    width: 80px;
+}
+
+
+/* RESUME_SECTION_STYLES*/
+.resume-column-title{
+    font-size: 30px;
+    font-weight: 700;
 }
